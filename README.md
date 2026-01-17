@@ -1,9 +1,4 @@
 # Brewly Structure
+## Autor: Mieszko Iwaniec
 
-```
-PROJEKT-PIU/
-
-```
-
-## Directory Purpose
 
