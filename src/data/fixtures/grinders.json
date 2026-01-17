@@ -1,0 +1,90 @@
+[
+    {
+        "id": "g1",
+        "brand": "Comandante",
+        "model": "C40 MK4",
+        "isHandGrinder": true,
+        "clickRange": {
+            "espresso": [
+                8,
+                12
+            ],
+            "aeropress": [
+                15,
+                20
+            ],
+            "v60": [
+                22,
+                28
+            ],
+            "chemex": [
+                28,
+                32
+            ],
+            "frenchPress": [
+                30,
+                35
+            ]
+        },
+        "stepDescription": "1 click = 30 microns"
+    },
+    {
+        "id": "g2",
+        "brand": "Timemore",
+        "model": "C3",
+        "isHandGrinder": true,
+        "clickRange": {
+            "espresso": [
+                7,
+                10
+            ],
+            "v60": [
+                13,
+                16
+            ],
+            "frenchPress": [
+                16,
+                20
+            ]
+        },
+        "stepDescription": "Standard clicks"
+    },
+    {
+        "id": "g3",
+        "brand": "Fellow",
+        "model": "Ode Gen 2",
+        "isHandGrinder": false,
+        "clickRange": {
+            "v60": [
+                4,
+                6
+            ],
+            "chemex": [
+                6,
+                8
+            ],
+            "frenchPress": [
+                7,
+                9
+            ]
+        },
+        "stepDescription": "Flat burrs, stepped dial"
+    },
+    {
+        "id": "g4",
+        "brand": "Wilfa",
+        "model": "Svart Uniform",
+        "isHandGrinder": false,
+        "clickRange": {
+            "v60": [
+                22,
+                28
+            ],
+            "frenchPress": [
+                30,
+                36
+            ]
+        },
+        "stepDescription": "Flat burrs, 41 steps"
+    }
+]

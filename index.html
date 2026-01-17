@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Brewly - Twój osobisty asystent do parzenia kawy specialty. Precyzyjne ustawienia, śledzenie świeżości i historia parzeń.">
+    <title>Brewly - Perfekcyjna kawa za każdym razem</title>
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="public/styles/landing.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <nav class="hero-nav">
+            <div class="logo">
+                <span class="logo-icon" style="color: var(--color-primary-500)">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                        <line x1="6" y1="1" x2="6" y2="4"></line>
+                        <line x1="10" y1="1" x2="10" y2="4"></line>
+                        <line x1="14" y1="1" x2="14" y2="4"></line>
+                    </svg>
+                </span>
+                <span class="logo-text">Brewly</span>
+            </div>
+            <a href="login.html" class="nav-cta">Zaloguj się</a>
+        </nav>
+
+        <img class="hero-sticker sticker-left" src="public/img/1.webp" alt="" aria-hidden="true">
+        <img class="hero-sticker sticker-right" src="public/img/2.webp" alt="" aria-hidden="true">
+
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Perfekcyjna kawa<br />
+                <span class="gradient-text">za każdym razem</span>
+            </h1>
+            <p class="hero-subtitle">
+                Cyfrowy asystent baristy. Śledź świeżość ziaren, kalibruj parametry parzenia<br />
+                i osiągaj idealny smak z profesjonalnymi narzędziami.
+            </p>
+            <div class="hero-actions">
+                <a href="login.html" class="btn-primary">
+                    Rozpocznij za darmo
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#features" class="btn-secondary">Dowiedz się więcej</a>
+            </div>
+        </div>
+
+        <div class="hero-image fade-in-up">
+            <div class="mockup-container">
+                <div class="mockup-glow"></div>
+                
+                <!-- Main Card (Center) -->
+                <div class="mockup-card card-main">
+                    <div class="mockup-content">
+                        <div class="mock-badge peak">Szczyt smaku</div>
+                        <div class="mock-title">Ethiopia Shantawene</div>
+                        <div class="mock-meta">Bonanza Coffee • Natural</div>
+                    </div>
+                </div>
+
+                <!-- Secondary Card (Left/Back) -->
+                <div class="mockup-card card-left">
+                    <div class="mockup-content">
+                        <div class="mock-badge">Świeża</div>
+                        <div class="mock-title">Kenya Kirinyaga</div>
+                        <div class="mock-meta">La Cabra • Washed</div>
+                    </div>
+                </div>
+
+                <!-- Tertiary Card (Right/Back) -->
+                <div class="mockup-card card-right">
+                    <div class="mockup-content">
+                        <div class="mock-badge">Odpoczywa</div>
+                        <div class="mock-title">Colombia El Paraiso</div>
+                        <div class="mock-meta">Friedhats • Double Anaerobic</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Stories -->
+    <section class="media-stories">
+        <div class="container">
+            <div class="media-intro fade-in-up">
+                <span class="media-kicker">Brewly w praktyce</span>
+                <h2>Estetyka i workflow, które motywują do parzenia</h2>
+                <p>Wszystko w jednym miejscu — od świeżości ziaren po zapis smaku. Zadbaj o rytuał i baw się kawą.</p>
+            </div>
+
+            <div class="media-row">
+                <div class="media-text fade-in-up" data-delay="0">
+                    <h3>Śledź świeżość bez notatek na kartkach</h3>
+                    <p>Widzisz od razu, w jakiej fazie jest kawa i kiedy smakuje najlepiej. Koniec zgadywania — prosto do idealnego okna parzenia.</p>
+                </div>
+                <div class="media-image fade-in-up" data-delay="120">
+                    <img src="public/img/3.webp" alt="Kawa specialty w przygotowaniu" loading="lazy">
+                </div>
+            </div>
+
+            <div class="media-row reverse">
+                <div class="media-text fade-in-up" data-delay="0">
+                    <h3>Biblioteka kaw, która rośnie razem z Tobą</h3>
+                    <p>Zapamiętuj profile smakowe, notatki z parzeń i ulubione ustawienia. Z czasem zbudujesz własny atlas kawowy.</p>
+                </div>
+                <div class="media-image fade-in-up" data-delay="120">
+                    <img src="public/img/4.webp" alt="Ziarna kawy i sprzęt baristyczny" loading="lazy">
+                </div>
+            </div>
+
+            <div class="media-row">
+                <div class="media-text fade-in-up" data-delay="0">
+                    <h3>Asystent parzenia krok po kroku</h3>
+                    <p>Timer, proporcje i zapis wrażeń — wszystko działa w jednym rytmie. Idealne do V60, AeroPressu czy espresso.</p>
+                </div>
+                <div class="media-image fade-in-up" data-delay="120">
+                    <img src="public/img/5.webp" alt="Kawa i akcesoria do parzenia" loading="lazy">
+                </div>
+            </div>
+
+            <div class="media-row reverse">
+                <div class="media-text fade-in-up" data-delay="0">
+                    <h3>Statystyki, które faktycznie coś mówią</h3>
+                    <p>Porównuj metody, oceniaj udane przepisy i odkrywaj swoje kawowe trendy. Mniej chaosu, więcej świadomych decyzji.</p>
+                </div>
+                <div class="media-image fade-in-up" data-delay="120">
+                    <img src="public/img/6.webp" alt="Moment parzenia kawy" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Wszystko czego potrzebujesz</h2>
+            <p class="section-subtitle fade-in-up">Profesjonalne narzędzia w jednej aplikacji</p>
+
+            <div class="features-grid">
+                <div class="feature-card fade-in-up" data-delay="0">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>Śledzenie świeżości</h3>
+                    <p>Automatyczne śledzenie świeżości ziaren z inteligentnym systemem powiadomień o optymalnym oknie
+                        smakowym.</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="100">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+                    <h3>Asystent parzenia</h3>
+                    <p>Interaktywny asystent parzenia z timerem, kalkulatorem proporcji i szczegółową oceną sensoryczną.
+                    </p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="200">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3>Biblioteka kaw</h3>
+                    <p>Cyfrowa kolekcja Twoich ziaren z parametrami botanicznymi, historią parzeń i notatkami.</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="300">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-circle-nodes"></i>
+                    </div>
+                    <h3>Koło smaków</h3>
+                    <p>Interaktywne koło smaków SCAA do precyzyjnej oceny aromatów i profilów smakowych kawy.</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="400">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3>Zarządzanie młynkami</h3>
+                    <p>Zarządzaj swoimi młynkami i zapisuj optymalne ustawienia dla różnych metod parzenia.</p>
+                </div>
+
+                <div class="feature-card fade-in-up" data-delay="500">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h3>Statystyki i analiza</h3>
+                    <p>Szczegółowe statystyki parzeń, ulubione metody i trendy w Twojej kawowej podróży.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-content fade-in-up">
+            <h2>Gotowy na idealną kawę?</h2>
+            <p>Dołącz do tysięcy baristów doskonalących swoje parzenia</p>
+            <a href="login.html" class="btn-primary-large">
+                Rozpocznij teraz
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon" style="color: var(--color-primary-500)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                                <line x1="6" y1="1" x2="6" y2="4"></line>
+                                <line x1="10" y1="1" x2="10" y2="4"></line>
+                                <line x1="14" y1="1" x2="14" y2="4"></line>
+                            </svg>
+                        </span>
+                        <span class="logo-text">Brewly</span>
+                    </div>
+                    <p>Twój osobisty asystent parzenia kawy specialty</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Produkt</h4>
+                        <a href="#features">Funkcje</a>
+                        <a href="login.html">Demo</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Projekt</h4>
+                        <a href="#">O projekcie</a>
+                        <a href="#">Technologie</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Brewly. Projekt edukacyjny PIU.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="public/scripts/landing.js"></script>
+</body>
+
+</html>

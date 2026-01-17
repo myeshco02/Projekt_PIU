@@ -1,0 +1,17 @@
+{
+  "name": "projekt-piu",
+  "version": "1.0.0",
+  "description": "``` PROJEKT-PIU/ ├── index.html                    # Entry point ├── .gitignore │ └── src/     ├── app.js                    # Main application entry     │     ├── core/                     # Core application logic     │   └── Store.js             # State management (Singleton)     │     ├── features/                 # Feature modules     │   ├── library/             # Coffee library feature     │   ├── grinders/            # Grinder management     │   ├── brew-assistant/      # Brew assistant (future)     │   └── flavor-wheel/        # Flavor wheel (future)     │     ├── shared/                   # Shared utilities & components     │   ├── components/          # Reusable UI components     │   └── utils/               # Utility functions     │       └── freshness.js     │     ├── styles/                   # Organized CSS     │   ├── base/     │   │   ├── variables.css    # Design tokens     │   │   └── main.css         # Base styles     │   ├── components/     │   │   ├── cards.css        # Coffee cards     │   │   └── forms.css        # Form styling     │   └── layout/     │       └── navigation.css   # Tab navigation     │     ├── data/     │   ├── fixtures/            # Mock/seed data     │   │   ├── coffees.json     │   │   ├── grinders.json     │   │   └── origins.json     │   └── models/              # Data models (future)     │     └── assets/                   # Static assets         ├── icons/               # SVG icons         ├── images/              # Images         └── fonts/               # Custom fonts ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "json-server --watch db.json --static . --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

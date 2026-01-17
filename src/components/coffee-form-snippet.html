@@ -1,0 +1,88 @@
+<!-- src/components/coffee-form.html (Snippet to be injected) -->
+<section id="add-coffee-view" class="view" style="display: none;">
+    <header class="view-header">
+        <button class="nav-btn" data-view="inventory">← Wróć</button>
+        <h2>Dodaj Nową Kawę</h2>
+    </header>
+
+    <form id="coffee-form" class="app-form">
+        <fieldset>
+            <legend>Dane Botaniczne</legend>
+
+            <div class="form-group">
+                <label for="coffee-name">Nazwa Kawy *</label>
+                <input type="text" id="coffee-name" name="name" required placeholder="np. Ethiopia Shantawene">
+            </div>
+
+            <div class="form-group">
+                <label for="coffee-roaster">Palarnia *</label>
+                <input type="text" id="coffee-roaster" name="roaster" required placeholder="np. Bonanza">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="coffee-origin">Kraj Pochodzenia</label>
+                    <input type="text" id="coffee-origin" name="origin" list="origins-list"
+                        placeholder="Wybierz lub wpisz">
+                    <datalist id="origins-list"></datalist>
+                </div>
+
+                <div class="form-group">
+                    <label for="coffee-region">Region</label>
+                    <input type="text" id="coffee-region" name="region" placeholder="np. Sidama">
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Szczegóły Ziarna</legend>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="coffee-process">Obróbka</label>
+                    <select id="coffee-process" name="process">
+                        <option value="Washed">Washed (Myta)</option>
+                        <option value="Natural">Natural (Sucha)</option>
+                        <option value="Honey">Honey</option>
+                        <option value="Anaerobic">Anaerobic</option>
+                        <option value="Experimental">Experimental</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="coffee-variety">Odmiana (Variety)</label>
+                    <input type="text" id="coffee-variety" name="variety" placeholder="np. Geisha">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="coffee-altitude">Wysokość upraw (m n.p.m.)</label>
+                <div class="range-wrapper">
+                    <input type="range" id="coffee-altitude" name="altitude" min="0" max="2500" step="50" value="1500"
+                        oninput="this.nextElementSibling.value = this.value + 'm'">
+                    <output>1500m</output>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pierwsza Paczka</legend>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="batch-date">Data Palenia *</label>
+                    <input type="date" id="batch-date" name="roastDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="batch-weight">Waga Paczki (g) *</label>
+                    <input type="number" id="batch-weight" name="weightInitial" value="250" required>
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-primary">Dodaj do Spiżarni</button>
+        </div>
+    </form>
+</section>

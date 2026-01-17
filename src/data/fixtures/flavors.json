@@ -1,0 +1,10 @@
+[
+  { "id": "floral", "name": "Floral", "color": "#db2777" },
+  { "id": "fruity", "name": "Fruity", "color": "#f59e0b" },
+  { "id": "sour_fermented", "name": "Sour/Fermented", "color": "#eab308" },
+  { "id": "green_vegetal", "name": "Green/Vegetal", "color": "#15803d" },
+  { "id": "roasted", "name": "Roasted", "color": "#a8a29e" },
+  { "id": "spices", "name": "Spices", "color": "#b91c1c" },
+  { "id": "nutty_cocoa", "name": "Nutty/Cocoa", "color": "#78350f" },
+  { "id": "sweet", "name": "Sweet", "color": "#f97316" }
+]

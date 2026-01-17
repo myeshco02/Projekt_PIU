@@ -1,0 +1,1005 @@
+{
+  "coffees": [
+    {
+      "id": "6307472b-eb64-4ff7-ab9c-d4a39e6fc607",
+      "name": "Ethiopia Guji",
+      "roaster": "HAYB",
+      "origin": "Ethiopia",
+      "roastDate": "2026-01-12",
+      "weightInitial": 250,
+      "weightCurrent": 210,
+      "process": "Natural",
+      "altitude": 2000,
+      "rating": 8,
+      "status": "active",
+      "dateAdded": "2026-01-13T09:15:00.000Z",
+      "accentColor": "#10b981",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        }
+      ],
+      "notes": "Juicy and bright."
+    },
+    {
+      "id": "febfe858-81c2-4d95-a8dc-8c54054d0f54",
+      "name": "Kenya Nyeri AA",
+      "roaster": "Coffee Lab",
+      "origin": "Kenya",
+      "roastDate": "2026-01-09",
+      "weightInitial": 250,
+      "weightCurrent": 180,
+      "process": "Washed",
+      "altitude": "1850",
+      "rating": "8",
+      "status": "active",
+      "dateAdded": "2026-01-10T08:40:00.000Z",
+      "accentColor": "#3b82f6",
+      "flavors": [
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Clean cup, blackcurrant."
+    },
+    {
+      "id": "01121c05-201d-4eb4-ab30-98d7938292a5",
+      "name": "Colombia Huila",
+      "roaster": "Audun Coffee",
+      "origin": "Colombia",
+      "roastDate": "2026-01-05",
+      "weightInitial": 250,
+      "weightCurrent": 150,
+      "process": "Honey",
+      "altitude": 1700,
+      "rating": 8,
+      "status": "active",
+      "dateAdded": "2026-01-06T10:20:00.000Z",
+      "accentColor": "#f97316",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        }
+      ],
+      "notes": "Caramel and cocoa."
+    },
+    {
+      "id": "91bdb7a2-b2a1-41b8-be76-4fa81170f81f",
+      "name": "Guatemala Huehuetenango",
+      "roaster": "Coffeelab",
+      "origin": "Guatemala",
+      "roastDate": "2025-12-28",
+      "weightInitial": 250,
+      "weightCurrent": 220,
+      "process": "Washed",
+      "altitude": 1900,
+      "rating": 7,
+      "status": "active",
+      "dateAdded": "2025-12-30T11:10:00.000Z",
+      "accentColor": "#84cc16",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Balanced and nutty."
+    },
+    {
+      "id": "c48f5ec9-63de-4d80-81f8-6010cb5fb3e8",
+      "name": "Costa Rica Tarrazu",
+      "roaster": "Hard Beans",
+      "origin": "Costa Rica",
+      "roastDate": "2025-12-30",
+      "weightInitial": 250,
+      "weightCurrent": 200,
+      "process": "Anaerobic",
+      "altitude": 1700,
+      "rating": 8,
+      "status": "active",
+      "dateAdded": "2026-01-02T09:05:00.000Z",
+      "accentColor": "#14b8a6",
+      "flavors": [
+        {
+          "name": "Sour/Fermented",
+          "color": "#eab308"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Funky and tropical."
+    },
+    {
+      "id": "1acaa267-e5d1-43ba-afaf-e60b74e833e9",
+      "name": "Rwanda Nyamasheke",
+      "roaster": "Java Coffee",
+      "origin": "Rwanda",
+      "roastDate": "2026-01-14",
+      "weightInitial": 250,
+      "weightCurrent": 230,
+      "process": "Washed",
+      "altitude": 1950,
+      "rating": 8,
+      "status": "active",
+      "dateAdded": "2026-01-15T07:50:00.000Z",
+      "accentColor": "#0ea5e9",
+      "flavors": [
+        {
+          "name": "Spices",
+          "color": "#b91c1c"
+        },
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        }
+      ],
+      "notes": "Tea-like and elegant."
+    },
+    {
+      "id": "2e8d48f6-7d58-4f3c-b71a-6f3c868a6298",
+      "name": "Brazil Cerrado",
+      "roaster": "Czarna Fala",
+      "origin": "Brazil",
+      "roastDate": "2025-12-20",
+      "weightInitial": 500,
+      "weightCurrent": 420,
+      "process": "Natural",
+      "altitude": 1100,
+      "rating": 7,
+      "status": "active",
+      "dateAdded": "2025-12-22T12:30:00.000Z",
+      "accentColor": "#f59e0b",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Chocolate and nuts."
+    },
+    {
+      "id": "43d28e53-65f4-4086-8e8f-01e9acbf6388",
+      "name": "Panama Boquete",
+      "roaster": "Relaks",
+      "origin": "Panama",
+      "roastDate": "2026-01-08",
+      "weightInitial": 250,
+      "weightCurrent": 240,
+      "process": "Washed",
+      "altitude": 1650,
+      "rating": 9,
+      "status": "active",
+      "dateAdded": "2026-01-09T13:45:00.000Z",
+      "accentColor": "#a855f7",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        }
+      ],
+      "notes": "Bergamot and stone fruit."
+    },
+    {
+      "id": "29af8dab-8698-4135-9d7f-dfac6e7ba48a",
+      "name": "El Salvador Santa Ana",
+      "roaster": "Miga Coffee",
+      "origin": "El Salvador",
+      "roastDate": "2025-12-22",
+      "weightInitial": 250,
+      "weightCurrent": 190,
+      "process": "Honey",
+      "altitude": 1600,
+      "rating": 8,
+      "status": "active",
+      "dateAdded": "2025-12-24T09:00:00.000Z",
+      "accentColor": "#22c55e",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Spices",
+          "color": "#b91c1c"
+        }
+      ],
+      "notes": "Sweet and spiced."
+    },
+    {
+      "id": "ca88e38e-6262-4f8a-b3ed-ac0a40743487",
+      "name": "Peru Cajamarca",
+      "roaster": "Coffee Plant",
+      "origin": "Peru",
+      "roastDate": "2026-01-03",
+      "weightInitial": 250,
+      "weightCurrent": 160,
+      "process": "Semi-Washed",
+      "altitude": 1800,
+      "rating": 7,
+      "status": "active",
+      "dateAdded": "2026-01-04T08:10:00.000Z",
+      "accentColor": "#64748b",
+      "flavors": [
+        {
+          "name": "Green/Vegetal",
+          "color": "#15803d"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Herbal sweetness."
+    },
+    {
+      "id": "006df242-67be-48dd-95f8-b5c70cd2b32f",
+      "name": "Ethiopia Yirgacheffe",
+      "roaster": "HAYB",
+      "origin": "Ethiopia",
+      "roastDate": "2025-10-12",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 2000,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-10-14T10:00:00.000Z",
+      "accentColor": "#ef4444",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Archived - floral."
+    },
+    {
+      "id": "0f6ffd44-bdc5-48eb-9465-d9398bb21964",
+      "name": "Kenya Kirinyaga",
+      "roaster": "Coffee Lab",
+      "origin": "Kenya",
+      "roastDate": "2025-09-22",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1800,
+      "rating": 8,
+      "status": "archived",
+      "dateAdded": "2025-09-24T08:30:00.000Z",
+      "accentColor": "#3b82f6",
+      "flavors": [
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - berry."
+    },
+    {
+      "id": "df2596ed-bb96-451b-92ad-fd19604032bb",
+      "name": "Colombia Tolima",
+      "roaster": "Audun Coffee",
+      "origin": "Colombia",
+      "roastDate": "2025-11-05",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Natural",
+      "altitude": 1700,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-11-07T09:20:00.000Z",
+      "accentColor": "#f97316",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        }
+      ],
+      "notes": "Archived - cocoa."
+    },
+    {
+      "id": "bdefaffd-d5a1-4e0d-8fea-51be7d92fa4c",
+      "name": "Guatemala Antigua",
+      "roaster": "Coffeelab",
+      "origin": "Guatemala",
+      "roastDate": "2025-08-18",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1600,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-08-20T10:15:00.000Z",
+      "accentColor": "#84cc16",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - classic."
+    },
+    {
+      "id": "c01cf3b3-99cb-42f4-8e1c-3c97a175e821",
+      "name": "Costa Rica Tres Rios",
+      "roaster": "Hard Beans",
+      "origin": "Costa Rica",
+      "roastDate": "2025-07-30",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Honey",
+      "altitude": 1700,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-08-01T11:00:00.000Z",
+      "accentColor": "#14b8a6",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Spices",
+          "color": "#b91c1c"
+        }
+      ],
+      "notes": "Archived - honey."
+    },
+    {
+      "id": "74e83e87-fed6-42d4-9516-d5d946535272",
+      "name": "Rwanda Gakenke",
+      "roaster": "Java Coffee",
+      "origin": "Rwanda",
+      "roastDate": "2025-10-03",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1900,
+      "rating": 8,
+      "status": "archived",
+      "dateAdded": "2025-10-05T07:45:00.000Z",
+      "accentColor": "#0ea5e9",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - tea-like."
+    },
+    {
+      "id": "580072d7-34b6-4126-85ae-7379e8371a1e",
+      "name": "Brazil Mogiana",
+      "roaster": "Czarna Fala",
+      "origin": "Brazil",
+      "roastDate": "2025-06-25",
+      "weightInitial": 500,
+      "weightCurrent": 0,
+      "process": "Natural",
+      "altitude": 1100,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-06-28T09:10:00.000Z",
+      "accentColor": "#f59e0b",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Roasted",
+          "color": "#a8a29e"
+        }
+      ],
+      "notes": "Archived - chocolate."
+    },
+    {
+      "id": "a9ac6283-5b94-4eed-8889-863115c15c8f",
+      "name": "Panama Volcan",
+      "roaster": "Relaks",
+      "origin": "Panama",
+      "roastDate": "2025-09-05",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1600,
+      "rating": 8,
+      "status": "archived",
+      "dateAdded": "2025-09-07T13:10:00.000Z",
+      "accentColor": "#a855f7",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Archived - clean."
+    },
+    {
+      "id": "3c2be334-7f71-4bdb-afde-817a3a13d020",
+      "name": "El Salvador Apaneca",
+      "roaster": "Miga Coffee",
+      "origin": "El Salvador",
+      "roastDate": "2025-08-30",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Honey",
+      "altitude": 1500,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-09-01T08:20:00.000Z",
+      "accentColor": "#22c55e",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Spices",
+          "color": "#b91c1c"
+        }
+      ],
+      "notes": "Archived - warm spice."
+    },
+    {
+      "id": "91c9636e-8396-428f-b573-0dda6babe010",
+      "name": "Peru Cusco",
+      "roaster": "Coffee Plant",
+      "origin": "Peru",
+      "roastDate": "2025-07-12",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Semi-Washed",
+      "altitude": 1900,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-07-14T09:35:00.000Z",
+      "accentColor": "#64748b",
+      "flavors": [
+        {
+          "name": "Green/Vegetal",
+          "color": "#15803d"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - herbal."
+    },
+    {
+      "id": "28cf0c6b-dafb-4f73-8885-522e55611f5e",
+      "name": "Ethiopia Sidamo",
+      "roaster": "HAYB",
+      "origin": "Ethiopia",
+      "roastDate": "2025-05-28",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Natural",
+      "altitude": 1950,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-05-30T10:05:00.000Z",
+      "accentColor": "#ef4444",
+      "flavors": [
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        }
+      ],
+      "notes": "Archived - fruit forward."
+    },
+    {
+      "id": "d2e6aefc-a6fb-49f0-bf5e-5185a1130588",
+      "name": "Kenya Muranga",
+      "roaster": "Coffee Lab",
+      "origin": "Kenya",
+      "roastDate": "2025-11-18",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1750,
+      "rating": 8,
+      "status": "archived",
+      "dateAdded": "2025-11-20T08:50:00.000Z",
+      "accentColor": "#3b82f6",
+      "flavors": [
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - berry."
+    },
+    {
+      "id": "13ad2eeb-74ef-4c2a-84ec-8a3138ac1ec7",
+      "name": "Colombia Narino",
+      "roaster": "Audun Coffee",
+      "origin": "Colombia",
+      "roastDate": "2025-10-26",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Carbonic Maceration",
+      "altitude": 1850,
+      "rating": 8,
+      "status": "archived",
+      "dateAdded": "2025-10-28T11:30:00.000Z",
+      "accentColor": "#f97316",
+      "flavors": [
+        {
+          "name": "Sour/Fermented",
+          "color": "#eab308"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Archived - ferment."
+    },
+    {
+      "id": "31a64db3-56b2-47ef-99aa-468b737643a3",
+      "name": "Guatemala Atitlan",
+      "roaster": "Coffeelab",
+      "origin": "Guatemala",
+      "roastDate": "2025-06-10",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1700,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-06-12T09:55:00.000Z",
+      "accentColor": "#84cc16",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - classic."
+    },
+    {
+      "id": "a5f3db3f-f439-4f4d-9fdf-0ca235dc3fa3",
+      "name": "Costa Rica Brunca",
+      "roaster": "Hard Beans",
+      "origin": "Costa Rica",
+      "roastDate": "2025-09-28",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Anaerobic",
+      "altitude": 1750,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-09-30T10:40:00.000Z",
+      "accentColor": "#14b8a6",
+      "flavors": [
+        {
+          "name": "Sour/Fermented",
+          "color": "#eab308"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Archived - tropical."
+    },
+    {
+      "id": "0e319c20-9d56-4fb1-9d7b-b3f88d4f33a8",
+      "name": "Rwanda Kivu",
+      "roaster": "Java Coffee",
+      "origin": "Rwanda",
+      "roastDate": "2025-08-02",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 2000,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-08-04T07:35:00.000Z",
+      "accentColor": "#0ea5e9",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - clean."
+    },
+    {
+      "id": "d624e941-d3ba-4b61-80b3-5e616c183332",
+      "name": "Brazil Sul de Minas",
+      "roaster": "Czarna Fala",
+      "origin": "Brazil",
+      "roastDate": "2025-11-02",
+      "weightInitial": 500,
+      "weightCurrent": 0,
+      "process": "Natural",
+      "altitude": 1200,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-11-04T12:10:00.000Z",
+      "accentColor": "#f59e0b",
+      "flavors": [
+        {
+          "name": "Nutty/Cocoa",
+          "color": "#78350f"
+        },
+        {
+          "name": "Roasted",
+          "color": "#a8a29e"
+        }
+      ],
+      "notes": "Archived - chocolate."
+    },
+    {
+      "id": "745bd6a3-71ab-4376-94d4-ea7e2cb0a828",
+      "name": "Panama Santa Clara",
+      "roaster": "Relaks",
+      "origin": "Panama",
+      "roastDate": "2025-07-22",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Washed",
+      "altitude": 1650,
+      "rating": 7,
+      "status": "archived",
+      "dateAdded": "2025-07-24T13:20:00.000Z",
+      "accentColor": "#a855f7",
+      "flavors": [
+        {
+          "name": "Floral",
+          "color": "#db2777"
+        },
+        {
+          "name": "Fruity",
+          "color": "#f59e0b"
+        }
+      ],
+      "notes": "Archived - floral."
+    },
+    {
+      "id": "1a4c5fce-f2a0-485c-997e-ae1452517a7d",
+      "name": "El Salvador Chalatenango",
+      "roaster": "Miga Coffee",
+      "origin": "El Salvador",
+      "roastDate": "2025-05-10",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Honey",
+      "altitude": 1600,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-05-12T08:05:00.000Z",
+      "accentColor": "#22c55e",
+      "flavors": [
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        },
+        {
+          "name": "Spices",
+          "color": "#b91c1c"
+        }
+      ],
+      "notes": "Archived - honey."
+    },
+    {
+      "id": "7be9fddb-40e2-4050-b3f1-eaaf5f78e54d",
+      "name": "Peru Puno",
+      "roaster": "Coffee Plant",
+      "origin": "Peru",
+      "roastDate": "2025-06-04",
+      "weightInitial": 250,
+      "weightCurrent": 0,
+      "process": "Semi-Washed",
+      "altitude": 1800,
+      "rating": 6,
+      "status": "archived",
+      "dateAdded": "2025-06-06T09:15:00.000Z",
+      "accentColor": "#64748b",
+      "flavors": [
+        {
+          "name": "Green/Vegetal",
+          "color": "#15803d"
+        },
+        {
+          "name": "Sweet",
+          "color": "#f97316"
+        }
+      ],
+      "notes": "Archived - herbal."
+    }
+  ],
+  "grinders": [
+    {
+      "id": "g1",
+      "name": "Comandante C40"
+    },
+    {
+      "id": "g2",
+      "name": "Fellow Ode"
+    }
+  ],
+  "recipes": [],
+  "logs": [
+    {
+      "id": "df1174f5-ca39-44d1-af64-121d42fe7c88",
+      "date": "2026-01-17T00:14:07.088Z",
+      "coffeeId": "6307472b-eb64-4ff7-ab9c-d4a39e6fc607",
+      "timeSeconds": 31,
+      "method": "V60",
+      "dose": 18,
+      "yield": 299,
+      "ratio": 16.6,
+      "temp": 91,
+      "grinder": "undefined",
+      "clicks": "3",
+      "rating": 7,
+      "notes": ""
+    },
+    {
+      "id": "fdbf41ce-9857-4654-852b-602cbba147d6",
+      "date": "2026-01-17T00:29:00.722Z",
+      "coffeeId": "febfe858-81c2-4d95-a8dc-8c54054d0f54",
+      "timeSeconds": 3,
+      "method": "V60",
+      "dose": 18,
+      "yield": 300,
+      "ratio": 16.6,
+      "temp": 93,
+      "grinder": "",
+      "clicks": "",
+      "rating": 3,
+      "notes": ""
+    },
+    {
+      "id": "e964b042-a2b7-407b-ad8e-a4e0ea048fa8",
+      "date": "2026-01-17T00:36:06.762Z",
+      "coffeeId": "01121c05-201d-4eb4-ab30-98d7938292a5",
+      "timeSeconds": 74,
+      "method": "V60",
+      "dose": 18,
+      "yield": 300,
+      "ratio": 16.6,
+      "temp": 93,
+      "grinder": "",
+      "clicks": "",
+      "rating": 6,
+      "notes": "asd oasd kljasd jklasd jklasd asjkld asjkld asjkld \naskld aklsd jaskld asdk jaskl d\nasld; askldj askld "
+    },
+    {
+      "id": "24f719f6-42f0-456a-b60f-402c98b79d8d",
+      "date": "2026-01-17T00:37:41.675Z",
+      "coffeeId": "91bdb7a2-b2a1-41b8-be76-4fa81170f81f",
+      "timeSeconds": 1,
+      "method": "V60",
+      "dose": 24,
+      "yield": 398,
+      "ratio": 16.6,
+      "temp": 93,
+      "grinder": "",
+      "clicks": "",
+      "rating": 8,
+      "notes": ""
+    },
+    {
+      "id": "68795cba-a531-4edd-936b-c693d1055348",
+      "date": "2026-01-17T00:46:12.378Z",
+      "coffeeId": "c48f5ec9-63de-4d80-81f8-6010cb5fb3e8",
+      "timeSeconds": 34,
+      "method": "V60",
+      "dose": 24,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "4",
+      "rating": 8,
+      "notes": ""
+    },
+    {
+      "id": "980a3563-283c-43ec-9a8f-05bbd56b131a",
+      "date": "2026-01-17T00:49:04.379Z",
+      "coffeeId": "1acaa267-e5d1-43ba-afaf-e60b74e833e9",
+      "timeSeconds": 6,
+      "method": "V60",
+      "dose": 24,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "67e31109-1951-4163-98fe-014968ea808e",
+      "date": "2026-01-17T00:56:32.659Z",
+      "coffeeId": "2e8d48f6-7d58-4f3c-b71a-6f3c868a6298",
+      "timeSeconds": 6,
+      "method": "V60",
+      "dose": 24,
+      "yield": 408,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 9,
+      "notes": ""
+    },
+    {
+      "id": "bc01a2aa-ca04-4c70-b642-80511b8ca8aa",
+      "date": "2026-01-17T01:14:51.580Z",
+      "coffeeId": "43d28e53-65f4-4086-8e8f-01e9acbf6388",
+      "timeSeconds": 1,
+      "method": "V60",
+      "dose": 18,
+      "yield": 300,
+      "ratio": 16.6,
+      "temp": 93,
+      "grinder": "",
+      "clicks": "",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "eaed4c5a-9eef-4093-b3b6-460e55408d8a",
+      "date": "2026-01-17T10:54:06.708Z",
+      "coffeeId": "29af8dab-8698-4135-9d7f-dfac6e7ba48a",
+      "timeSeconds": 8,
+      "method": "V60",
+      "dose": 19,
+      "yield": 323,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 5,
+      "notes": ""
+    },
+    {
+      "id": "9473cf2f-c743-4890-ad09-f18f897eab51",
+      "date": "2026-01-17T11:08:45.391Z",
+      "coffeeId": "ca88e38e-6262-4f8a-b3ed-ac0a40743487",
+      "timeSeconds": 44,
+      "method": "V60",
+      "dose": 24,
+      "yield": 408,
+      "ratio": 17,
+      "temp": 90,
+      "grinder": "",
+      "clicks": "",
+      "rating": 5,
+      "notes": ""
+    },
+    {
+      "id": "acdd3f44-1b4e-4e21-8693-c4bb42f95f53",
+      "date": "2026-01-17T12:00:14.163Z",
+      "coffeeId": "6307472b-eb64-4ff7-ab9c-d4a39e6fc607",
+      "timeSeconds": 32,
+      "method": "V60",
+      "dose": 24,
+      "yield": 408,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 9,
+      "notes": ""
+    },
+    {
+      "id": "edddd1d9-8d25-4d1b-a043-f2206fdad6ae",
+      "date": "2026-01-17T12:51:26.084Z",
+      "coffeeId": "91bdb7a2-b2a1-41b8-be76-4fa81170f81f",
+      "timeSeconds": 3,
+      "method": "V60",
+      "dose": 24,
+      "yield": 398,
+      "ratio": 16.6,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "34c98d61-2dc2-4da5-9d73-c3ebf3ef14e4",
+      "date": "2026-01-17T12:55:22.899Z",
+      "coffeeId": "6307472b-eb64-4ff7-ab9c-d4a39e6fc607",
+      "timeSeconds": 4,
+      "method": "V60",
+      "dose": 24,
+      "yield": 408,
+      "ratio": 17,
+      "temp": 89,
+      "grinder": "",
+      "clicks": "",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "2b327d36-8d9f-4bce-ba0a-4b72655ec6c9",
+      "date": "2026-01-17T13:02:36.056Z",
+      "coffeeId": "91bdb7a2-b2a1-41b8-be76-4fa81170f81f",
+      "timeSeconds": 10,
+      "method": "V60",
+      "dose": 19,
+      "yield": 323,
+      "ratio": 17,
+      "temp": 88,
+      "grinder": "",
+      "clicks": "",
+      "rating": 8,
+      "notes": ""
+    }
+  ]
+}

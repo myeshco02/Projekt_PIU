@@ -1,0 +1,173 @@
+/* === BOTTOM TAB NAVIGATION (Premium) === */
+.tab-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--surface-primary);
+    border-top: 1px solid var(--border-light);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    z-index: var(--z-fixed);
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1);
+    padding: var(--space-3) var(--space-2);
+    color: var(--text-tertiary);
+    font-size: var(--text-xs);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+
+    /* Icon */
+    svg {
+        width: 24px;
+        height: 24px;
+        stroke: currentColor;
+        fill: none;
+        transition: all 0.2s ease;
+    }
+
+    /* Active state */
+    &.active {
+        color: var(--color-primary-600);
+
+        svg {
+            stroke: var(--color-primary-600);
+        }
+
+        /* Active indicator */
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-primary-600), var(--color-primary-500));
+            border-radius: 0 0 var(--radius-full) var(--radius-full);
+        }
+    }
+
+    /* Responsive: Hide text on smaller screens */
+    @media (max-width: 450px) {
+        span {
+            display: none;
+        }
+    }
+}
+
+/* === FLOATING ACTION BUTTON (Enhanced) === */
+.fab {
+    position: fixed;
+    bottom: calc(70px + env(safe-area-inset-bottom, 16px));
+    right: var(--space-4);
+    width: 56px;
+    height: 56px;
+    border-radius: var(--radius-full);
+    background: var(--color-primary-500);
+    color: white;
+    border: none;
+    box-shadow: var(--shadow-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: var(--z-fixed);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    svg {
+        width: 24px;
+        height: 24px;
+        stroke: white;
+        stroke-width: 2.5;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: var(--shadow-2xl);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* === SECTION HEADER === */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-4);
+    background: var(--surface-primary);
+    border-bottom: 1px solid var(--border-light);
+
+    h2 {
+        font-size: var(--text-xl);
+        font-weight: var(--font-semibold);
+        color: var(--text-primary);
+    }
+
+    .section-actions {
+        display: flex;
+        gap: var(--space-2);
+    }
+}
+
+/* === SUB-NAVIGATION TABS (For sections like Library) === */
+.sub-tabs {
+    display: flex;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    background: var(--surface-primary);
+    border-bottom: 1px solid var(--border-light);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.sub-tab-btn {
+    background: none;
+    border: none;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &.active {
+        background: var(--color-primary-500);
+        color: white;
+    }
+
+    &:hover:not(.active) {
+        background: var(--surface-secondary);
+        color: var(--text-primary);
+    }
+}
+
+/* === SUBTAB CONTENT === */
+.subtab-content {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}

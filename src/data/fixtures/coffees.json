@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1-flat",
+    "name": "Ethiopia Shantawene",
+    "roaster": "Bonanza",
+    "origin": "Ethiopia",
+    "roastDate": "2024-02-15",
+    "weightInitial": 250,
+    "weightCurrent": 250,
+    "process": "Natural",
+    "status": "active",
+    "dateAdded": "2024-02-20T10:00:00.000Z"
+  },
+  {
+    "id": "c2-flat",
+    "name": "Colombia El Paraiso",
+    "roaster": "Manhattan",
+    "origin": "Colombia",
+    "roastDate": "2024-01-20",
+    "weightInitial": 125,
+    "weightCurrent": 0,
+    "process": "Anaerobic",
+    "status": "archived",
+    "dateAdded": "2024-01-25T14:30:00.000Z"
+  }
+]
